@@ -7,3 +7,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - run:  ./.github/workflows/bin/install-terraform.sh
+      - run:  ./.github/workflows/bin/install-dns-mask.sh
